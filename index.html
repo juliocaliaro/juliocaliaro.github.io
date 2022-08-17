@@ -1,9 +1,59 @@
+<head> 
+    <script>
+
+        const dog = new Audio('./audio/oi.mp3');
+        const away = new Audio('./audio/away.mp3');
+        const tiringa = new Audio('./audio/tiringa.mp3');
+    
+        
+        function playDog (){
+            stopAll();
+            dog.play();
+        
+        }
+        function playAway (){
+            stopAll();
+            away.play();
+        }
+        function playTiringa (){
+            stopAll();
+            tiringa.play();
+        }
+
+        function stopAll (){
+            dog.pause();
+            dog.currentTime = 0;
+            away.pause();
+            away.currentTime = 0;
+            tiringa.pause();
+            tiringa.currentTime = 0;
+        }
+
+    </script>
+
+</head>
 <body>
+    
+    <div>
+        
+        <img onclick="playDog()" 
+        src="./images/dog.jpg" 
+        title="sai daqui seu cachorro"
+        height="250px"
+        >
 
-<div
+        <img onclick="playAway()" 
+        src="./images/away.jpg" 
+        title="olha esse desgracado"
+        height="250px">
 
-<h1> vai se fude pa lá kkkkkkkkkkkk </h1>
-
+        <img onclick="playTiringa()" 
+        src="./images/tiringa.jpg" 
+        title="arreda daqui"
+        height="250px">
+    
 </div>
 
 </body>
+
+

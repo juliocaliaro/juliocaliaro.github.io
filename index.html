@@ -1,42 +1,20 @@
-<head> 
-    <script>
-
-        const dog = new Audio('./audio/oi.mp3');
-        const away = new Audio('./audio/away.mp3');
-        const tiringa = new Audio('./audio/tiringa.mp3');
-    
-        
-        function playDog (){
-            stopAll();
-            dog.play();
-        
-        }
-        function playAway (){
-            stopAll();
-            away.play();
-        }
-        function playTiringa (){
-            stopAll();
-            tiringa.play();
-        }
-
-        function stopAll (){
-            dog.pause();
-            dog.currentTime = 0;
-            away.pause();
-            away.currentTime = 0;
-            tiringa.pause();
-            tiringa.currentTime = 0;
-        }
-
-    </script>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme</title>
+    <script src="./script.js"></script>
+    <link href="./style.css" rel="stylesheet">
 </head>
+
 <body>
     
     <div>
         
-        <img onclick="playDog()" 
+        <h1> Clique nas imagens </h1>
+        <img onclick="playDog(99)" 
         src="./images/dog.jpg" 
         title="sai daqui seu cachorro"
         height="250px"

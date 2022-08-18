@@ -1,5 +1,50 @@
-h1 {
-    color: black;
-    font-size: 40px;
-    background: gray;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+h1 {
+    font-size: 24px;
+    color: rgb(68, 68, 68);
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.menu {
+    background-color: rgb(151, 204, 253);
+ }
+
+.menu ul{             /*estilo da lista nao ordenada*/
+    max-width: 800px;
+    list-style: none;
+    padding: 0; 
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+
+}
+
+.menu ul li a:hover{  /* quando o mouse passa em cima*/
+    background-color: rgb(64, 163, 255);
+}
+
+.menu ul li:last-child a{  
+    color: white;
+    background-color: rgb(64, 163, 255);
+    float: right;
+}
+

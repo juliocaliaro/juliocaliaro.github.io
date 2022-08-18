@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meme</title>
+    <title>Memes</title>
     <script src="./script.js"></script>
     <link href="./style.css" rel="stylesheet">
+    <link href="./meme-style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
 </head>
 
 <body>
@@ -16,40 +19,41 @@
                 <a href="index.html">Homepage</a>
             </li>
             <li>
-                <a href="imagens.html">Minhas iamgens</a>
-            </li>
-            <li>
-                <a href="contact.html">Contato</a>
-            </li>
-            <li>
                 <a href="memes.html">Memes</a>
+            </li>
+            <li>
+                <a href="imagens.html">Em breve</a>
+            </li>
+            <li>
+                <a href="contact.html">Sobre</a>
             </li>
         </ul>
     </Nav>
-    
-    <h1> Clique nas imagens </h1>
 
-    <div>
-        
-        
-        <img onclick="playDog(99)" 
-        src="./images/dog.jpg" 
-        title="sai daqui seu cachorro"
-        height="250px"
-        >
+    <div class="title">
+        <h1> Biblioteca de Memes </h1>
+    </div>
 
-        <img onclick="playAway()" 
-        src="./images/away.jpg" 
-        title="olha esse desgracado"
-        height="250px">
+    <div class="all-memes">
+        <a onclick="playDog(99)">
+            <div class="meme-item">
+                <img src="./images/dog.jpg" title="sai daqui seu cachorro">
+                <p> Sai daqui seu cachorro </p>
+            </div>
+        </a>
 
-        <img onclick="playTiringa()" 
-        src="./images/tiringa.jpg" 
-        title="arreda daqui"
-        height="250px">
-    
-</div>
+        <a onclick="playAway(99)">
+            <div class="meme-item">
+                <img src="./images/away.jpg" title="olha esse desgracado">
+                <p> Olha esse desgraçado de novo aqui</p>
+            </div>
+        </a>
 
+        <a onclick="playTiringa(99)">
+            <div class="meme-item">
+                <img src="./images/tiringa.jpg" title="arreda daqui">
+                <p> Arreda daqui, vai embora</p>
+            </div>
+        </a>
+    </div>
 </body>
-
-

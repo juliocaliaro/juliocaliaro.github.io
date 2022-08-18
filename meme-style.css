@@ -1,0 +1,32 @@
+.all-memes {
+    display: flex;
+}
+
+.meme-item {
+    padding: 10px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+}
+
+
+.meme-item img {
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    margin-bottom: 12px;
+}
+
+.meme-item:hover img{
+   border: solid 4px rgb(141, 139, 139);
+}
+
+.meme-item p {
+    font-weight: bold;
+}
+
+.meme-item:hover p {
+    text-decoration: underline;
+}

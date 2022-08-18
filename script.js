@@ -14,7 +14,7 @@ const dog = new Audio('./audio/oi.mp3');
         
         }
         function playAway (){
-            //stopAll();
+            stopAll();
             away.play();
         }
         function playTiringa (){

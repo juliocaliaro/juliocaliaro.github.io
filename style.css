@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
+
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    display: flex;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
 }
 
 
@@ -17,19 +26,20 @@ h1 {
 
 .menu {
     background-color: rgb(151, 204, 253);
- }
-
-.menu ul{             /*estilo da lista nao ordenada*/
-    max-width: 800px;
-    list-style: none;
-    padding: 0; 
 }
 
-.menu ul li{
+.menu ul {
+    /*estilo da lista nao ordenada*/
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
     display: inline;
 }
 
-.menu ul li a{
+.menu ul li a {
     color: black;
     padding: 20px;
     display: inline-block;
@@ -38,13 +48,13 @@ h1 {
 
 }
 
-.menu ul li a:hover{  /* quando o mouse passa em cima*/
+.menu ul li a:hover {
+    /* quando o mouse passa em cima*/
     background-color: rgb(64, 163, 255);
 }
 
-.menu ul li:last-child a{  
+.menu ul li:last-child a {
     color: white;
     background-color: rgb(64, 163, 255);
     float: right;
 }
-

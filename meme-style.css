@@ -1,32 +1,32 @@
-.all-memes {
+.all-memes {  /*classe responsavel pelas alteracoes da div onde esta as imagens e titulos referente a imagem*/
+    display: flex; /*ajusta proporcionalemnte ao tamanho do fundo*/
+}
+
+.meme-item { /*alteracoes nos itens dentro do div de cada item*/
+    padding: 10px; /*define distancia entre o elemento e borda, no caso a box*/
+    border: solid 1px; /*borda da box*/
     display: flex;
-}
-
-.meme-item {
-    padding: 10px;
-    border: solid 1px;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
+    flex-direction:column; /*define a posicao do title dentro da box*/
+    background-color: whitesmoke; /*cor do fundo da box*/
 
 }
 
 
-.meme-item img {
-    height: 250px;
-    border-radius: 50%;
-    width: 250px;
-    margin-bottom: 12px;
+.meme-item img { /*alteracao das images dentro da div*/
+    height: 250px; /*altera o tamanho vertical da box*/
+    border-radius: 50%; /*formato da image (redondo)*/
+    width: 250px; /*altera o tamanho horizontal box*/
+    margin-bottom: 12px; /*margem da parte de baixo da image*/
 }
 
-.meme-item:hover img{
-   border: solid 4px rgb(141, 139, 139);
+.meme-item:hover img{ /* hover - mouse por cima do componete*/
+   border: solid 4px rgb(141, 139, 139); /*borda ao redor da image*/
 }
 
-.meme-item p {
-    font-weight: bold;
+.meme-item p { /*alteracoes na tag p*/
+    font-weight: bold; /*transforma o texto em negrito*/
 }
 
 .meme-item:hover p {
-    text-decoration: underline;
+    text-decoration: underline; /*cria um sublinhado quando passa o cursor por cima, nesse caso, ele aparece quando o cursor parte dentro da box*/
 }

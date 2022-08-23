@@ -4,8 +4,8 @@ const dog = new Audio('./audio/oi.mp3');
     
         
         function playDog (nDeRepeticoes){
-            stopAll();
-            dog.play();
+            stopAll();/*para*/
+            dog.play();/*toca*/
             for (let i = 0; i < nDeRepeticoes; i = i+1) {
                 console.log("reproduzindo..." ,i);
                 

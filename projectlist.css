@@ -1,0 +1,21 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-list iframe {
+    width: 560px;
+    height: 315px;
+
+}
+
+.project-list a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project-list p {
+    display: flex;
+    justify-content: center;
+}

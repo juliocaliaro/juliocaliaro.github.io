@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+/*fonte*/
 * {
     margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    padding: 0;/*distancia entre os elementos*/
+    box-sizing: border-box;/*altera padrao de tamanho da box*/
+    font-family: 'Open Sans', sans-serif;/*estilo da fonte*/
 }
 
 .title {
@@ -12,26 +12,26 @@
 }
 
 body {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226); /*cor de fundo*/
 }
 
 
-h1 {
-    font-size: 24px;
-    color: rgb(68, 68, 68);
-    margin-top: 15px;
-    padding: 15px;
-    font-weight: 600;
+h1 { 
+    font-size: 24px; /*tamanho da fonte*/
+    color: rgb(68, 68, 68); /*cor*/
+    margin-top: 15px;/*margin no topo*/
+    padding: 15px; /*preenchimento entre os componentes ou elementos*/
+    font-weight: 600; /*peso da fonte, de 1~1000 defini a forta da cor*/
 }
 
 .menu {
-    background-color: rgb(151, 204, 253);
+    background-color: rgb(151, 204, 253); /*cor de fundo*/
 }
 
 .menu ul {
     /*estilo da lista nao ordenada*/
-    max-width: 800px;
-    list-style: none;
+    max-width: 800px; /*maximo de tamanho horizontal*/ 
+    list-style: none;/*ocultar estilo de lista*/
     padding: 0;
 }
 
@@ -43,18 +43,17 @@ h1 {
     color: black;
     padding: 20px;
     display: inline-block;
-    text-decoration: none;
-    transition: background .4s;
+    text-decoration: none; /*ocultando decoracao do texto*/
+    transition: background .4s; /*tempo de transicao*/
 
 }
 
 .menu ul li a:hover {
-    /* quando o mouse passa em cima*/
     background-color: rgb(64, 163, 255);
 }
 
-.menu ul li:last-child a {
+.menu ul li:last-child a { /* last-child aplica somente ultimo filho*/
     color: white;
     background-color: rgb(64, 163, 255);
-    float: right;
+    float: right; /*posicionamento DUVIDA*/
 }

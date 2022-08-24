@@ -3,35 +3,35 @@
         const tiringa = new Audio('./audio/tiringa.mp3');
         const sefodeo = new Audio('./audio/sefodeo.mp3');
         const calaboca = new Audio('./audio/calaboca.mp3');
-        const creditos= new Audio('./audio/creditos.mp3');
+        const creditos = new Audio('./audio/creditos.mp3');
 
 
-        function playDog {
+        function playDog () {
             stopAll();/*para*/
             dog.play();/*toca*/
         }
 
-        function playAway {
+        function playAway () {
             stopAll();
             away.play();
         }
 
-        function playTiringa {
+        function playTiringa () {
             stopAll();
             tiringa.play();
         }
 
-        function playsefodeo {
+        function playsefodeo () {
             stopAll();
             sefodeo.play();
         }
 
-        function playcalaboca {
+        function playcalaboca () {
             stopAll();
             calaboca.play();
         }
 
-        function playcreditos {
+        function playcreditos () {
             stopAll();
             creditos.play();
         }

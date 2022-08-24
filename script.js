@@ -7,7 +7,7 @@
 
 
         function playDog () {
-            stopAll();/*para*/
+            stopAll();/*parar*/
             dog.play();/*toca*/
         }
 

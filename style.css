@@ -7,8 +7,15 @@
     font-family: 'Open Sans', sans-serif;/*estilo da fonte*/
 }
 
-.title {
+.welcome {
     display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+
+.title {
+    display: flex; 
 }
 
 body {
@@ -45,8 +52,13 @@ h1 {
     display: inline-block;
     text-decoration: none; /*ocultando decoracao do texto*/
     transition: background .4s; /*tempo de transicao*/
-
 }
+
+@media only screen and (max-width: 600px) {
+    .menu ul li a {
+      padding: 5px;
+    }
+  }
 
 .menu ul li a:hover {
     background-color: rgb(64, 163, 255);

@@ -1,8 +1,13 @@
 .all-memes {  /*classe responsavel pelas alteracoes da div onde esta as imagens e titulos referente a imagem*/
-    display: flex; /*ajusta proporcionalemnte ao tamanho do fundo*/
+    display: flex;
+    flex-wrap: wrap; /*ajusta proporcionalemnte ao tamanho do fundo*/
 }
 
 .meme-item { /*alteracoes nos itens dentro do div de cada item*/
+    justify-content: space-evenly;
+    height: 330px;
+    width: 285px;
+    margin: 10px;
     padding: 10px; /*define distancia entre o elemento e borda, no caso a box*/
     border: solid 1px; /*borda da box*/
     display: flex;
@@ -24,6 +29,7 @@
 }
 
 .meme-item p { /*alteracoes na tag p*/
+    text-align: center;
     font-weight: bold; /*transforma o texto em negrito*/
 }
 

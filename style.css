@@ -48,7 +48,7 @@ h1 {
 }
 
 .menu {
-    background-color: rgb(151, 204, 253);
+    background-color: gray;
     /*cor de fundo*/
 }
 
@@ -82,13 +82,13 @@ h1 {
 }
 
 .menu ul li a:hover {
-    background-color: rgb(64, 163, 255);
+    background-color: rgb(97, 97, 97);
 }
 
 .menu ul li:last-child a {
     /* last-child aplica somente ultimo filho*/
     color: white;
-    background-color: rgb(64, 163, 255);
+    background-color: rgb(97, 97, 97);
     float: right;
     /*posicionamento DUVIDA*/
 }

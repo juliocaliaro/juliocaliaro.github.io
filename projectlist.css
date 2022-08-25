@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
-    /*aqui*/
+    padding-bottom: 44px; /*Espaço para não sobrepor o rodapé*/
 }
 
 .project-list iframe {

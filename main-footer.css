@@ -1,0 +1,19 @@
+.main-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    background-color: gray;
+    padding-top: 5px;
+}
+
+.main-footer .logo {
+    width: 24px;
+    height: 24px;
+}
+
+.main-footer .logo a {
+    display: inline-block;
+}

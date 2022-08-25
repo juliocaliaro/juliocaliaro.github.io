@@ -1,54 +1,60 @@
-        const dog = new Audio('./audio/oi.mp3');
-        const away = new Audio('./audio/away.mp3');
-        const tiringa = new Audio('./audio/tiringa.mp3');
-        const sefodeo = new Audio('./audio/sefodeo.mp3');
-        const calaboca = new Audio('./audio/calaboca.mp3');
-        const creditos = new Audio('./audio/creditos.mp3');
+const dog = new Audio('./audio/oi.mp3');
+const away = new Audio('./audio/away.mp3');
+const tiringa = new Audio('./audio/tiringa.mp3');
+const sefodeo = new Audio('./audio/sefodeo.mp3');
+const calaboca = new Audio('./audio/calaboca.mp3');
+const creditos = new Audio('./audio/creditos.mp3');
 
+function playDog() {
+    stopAll();/*parar*/
+    dog.play();/*toca*/
+}
 
-        function playDog () {
-            stopAll();/*parar*/
-            dog.play();/*toca*/
-        }
+function playAway() {
+    stopAll();
+    away.play();
+}
 
-        function playAway () {
-            stopAll();
-            away.play();
-        }
+function playTiringa() {
+    stopAll();
+    tiringa.play();
+}
 
-        function playTiringa () {
-            stopAll();
-            tiringa.play();
-        }
+function playsefodeo() {
+    stopAll();
+    sefodeo.play();
+}
 
-        function playsefodeo () {
-            stopAll();
-            sefodeo.play();
-        }
+function playcalaboca() {
+    stopAll();
+    calaboca.play();
+}
 
-        function playcalaboca () {
-            stopAll();
-            calaboca.play();
-        }
+function playcreditos() {
+    stopAll();
+    creditos.play();
+}
 
-        function playcreditos () {
-            stopAll();
-            creditos.play();
-        }
+function stopAll() {
+    dog.pause();
+    dog.currentTime = 0;
+    away.pause();
+    away.currentTime = 0;
+    tiringa.pause();
+    tiringa.currentTime = 0;
+    sefodeo.pause();
+    sefodeo.currentTime = 0;
+    calaboca.pause();
+    calaboca.currentTime = 0;
+    creditos.pause();
+    creditos.currentTime = 0;
+}
 
-
-        function stopAll (){
-            dog.pause();
-            dog.currentTime = 0;
-            away.pause();
-            away.currentTime = 0;
-            tiringa.pause();
-            tiringa.currentTime = 0;
-            sefodeo.pause();
-            sefodeo.currentTime = 0;
-            calaboca.pause();
-            calaboca.currentTime = 0;
-            creditos.pause();
-            creditos.currentTime = 0;
-
-        }
+function openWindow(endereco) {
+    if (endereco == "git") {
+        window.open('https://github.com/juliocaliaro')
+    }
+    else if (endereco == "linkedin") {
+        window.open('https://www.linkedin.com/in/juliocaliaro/')
+    }
+}

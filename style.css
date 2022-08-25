@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 /*fonte*/
 * {
     margin: 0 auto;
-    padding: 0;/*distancia entre os elementos*/
-    box-sizing: border-box;/*altera padrao de tamanho da box*/
-    font-family: 'Open Sans', sans-serif;/*estilo da fonte*/
+    padding: 0;
+    /*distancia entre os elementos*/
+    box-sizing: border-box;
+    /*altera padrao de tamanho da box*/
+    font-family: 'Open Sans', sans-serif;
+    /*estilo da fonte*/
+}
+
+html,
+body {
+    position: relative;
+    min-height: 100%;
 }
 
 .welcome {
@@ -15,31 +25,40 @@
 }
 
 .title {
-    display: flex; 
+    display: flex;
 }
 
 body {
-    background-color: rgb(226, 226, 226); /*cor de fundo*/
+    background-color: rgb(226, 226, 226);
+    /*cor de fundo*/
 }
 
 
-h1 { 
-    font-size: 24px; /*tamanho da fonte*/
-    color: rgb(68, 68, 68); /*cor*/
-    margin-top: 15px;/*margin no topo*/
-    padding: 15px; /*preenchimento entre os componentes ou elementos*/
-    font-weight: 600; /*peso da fonte, de 1~1000 defini a forta da cor*/
+h1 {
+    font-size: 24px;
+    /*tamanho da fonte*/
+    color: rgb(68, 68, 68);
+    /*cor*/
+    margin-top: 15px;
+    /*margin no topo*/
+    padding: 15px;
+    /*preenchimento entre os componentes ou elementos*/
+    font-weight: 600;
+    /*peso da fonte, de 1~1000 defini a forta da cor*/
 }
 
 .menu {
-    background-color: rgb(151, 204, 253); /*cor de fundo*/
+    background-color: rgb(151, 204, 253);
+    /*cor de fundo*/
 }
 
 .menu ul {
     /*estilo da lista nao ordenada*/
-    max-width: 800px; /*maximo de tamanho horizontal*/ 
-    list-style: none;/*ocultar estilo de lista*/
-    padding: 0;
+    max-width: 800px;
+    /*maximo de tamanho horizontal*/
+    list-style: none;
+    /*ocultar estilo de lista*/
+    padding: 0px;
 }
 
 .menu ul li {
@@ -50,22 +69,26 @@ h1 {
     color: black;
     padding: 20px;
     display: inline-block;
-    text-decoration: none; /*ocultando decoracao do texto*/
-    transition: background .4s; /*tempo de transicao*/
+    text-decoration: none;
+    /*ocultando decoracao do texto*/
+    transition: background .4s;
+    /*tempo de transicao*/
 }
 
 @media only screen and (max-width: 600px) {
     .menu ul li a {
-      padding: 5px;
+        padding: 5px;
     }
-  }
+}
 
 .menu ul li a:hover {
     background-color: rgb(64, 163, 255);
 }
 
-.menu ul li:last-child a { /* last-child aplica somente ultimo filho*/
+.menu ul li:last-child a {
+    /* last-child aplica somente ultimo filho*/
     color: white;
     background-color: rgb(64, 163, 255);
-    float: right; /*posicionamento DUVIDA*/
+    float: right;
+    /*posicionamento DUVIDA*/
 }

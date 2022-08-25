@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    position: sticky;
+    position: absolute;
     bottom: 0;
     background-color: gray;
     padding-top: 5px;
@@ -12,8 +12,14 @@
 .main-footer .logo {
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 .main-footer .logo a {
     display: inline-block;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }

@@ -1,6 +1,7 @@
 .all-memes {  /*classe responsavel pelas alteracoes da div onde esta as imagens e titulos referente a imagem*/
     display: flex;
     flex-wrap: wrap; /*ajusta proporcionalemnte ao tamanho do fundo*/
+    padding-bottom: 44px; /*Espaço para não sobrepor o rodapé*/
 }
 
 .meme-item { /*alteracoes nos itens dentro do div de cada item*/
